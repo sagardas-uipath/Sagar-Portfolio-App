@@ -24,6 +24,3 @@ Eye coordinates (`EYES`) are measured in the image's native pixels (1086 × 1146
 
 ## 3D
 CSS 3D transforms (perspective + `preserve-3d`) and one lightweight canvas (the neural sphere) — no WebGL dependency. Tilt effects are disabled on touch devices and under `prefers-reduced-motion`; the sphere is skipped below 768px.
-
-## Previous version
-The first version (architecture diagram, automation lab, command center…) is preserved in `archive/v1-src/` and is not part of the build. Delete the folder when no longer needed.
