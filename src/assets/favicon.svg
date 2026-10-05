@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" fill="none" stroke="#0B2A4A" stroke-opacity="0.12"/>
+  <svg x="1" y="11.5" width="62" height="39.7" viewBox="0 0 100 64">
+  <defs>
+    <linearGradient id="tn" x1="10" y1="8" x2="80" y2="52" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#163F73"/><stop offset="1" stop-color="#0B2A4A"/></linearGradient>
+    <linearGradient id="ts" x1="3" y1="45" x2="97" y2="9" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7CC8F7"/><stop offset="0.55" stop-color="#2B8BEA"/><stop offset="1" stop-color="#1D6FD1"/></linearGradient>
+    <mask id="tm" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="64">
+      <rect width="100" height="64" fill="#fff"/>
+      <path d="M3 35 C 24 52, 60 51, 97 6 C 63 42, 28 45, 3 35 Z" fill="#000" stroke="#000" stroke-width="4" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <g mask="url(#tm)">
+    <g transform="translate(0 29) skewX(-14) translate(0 -29)" fill="none" stroke="url(#tn)" stroke-width="7.4">
+      <path d="M34.96 15.62 A8.5 8.5 0 1 0 28 29 A8.5 8.5 0 1 1 21.04 42.38" stroke-linecap="round"/>
+      <path d="M50 12 H55 A17 17 0 0 1 55 46 H50 Z" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <path d="M3 35 C 24 52, 60 51, 97 6 C 63 42, 28 45, 3 35 Z" fill="url(#ts)"/>
+</svg>
+</svg>
